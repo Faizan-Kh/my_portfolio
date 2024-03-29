@@ -1,9 +1,12 @@
 import { motion } from "framer-motion";
-
+import Spline from "@splinetool/react-spline";
 import { styles } from "../styles";
-import { ComputersCanvas } from "./canvas";
+import { ComputersCanvas, SplineScene } from "./canvas";
+
+
 
 const Hero = () => {
+  
   return (
     <section className={`relative w-full h-screen mx-auto`}>
       <div
@@ -16,16 +19,19 @@ const Hero = () => {
 
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I'm <span className='text-[#915EFF]'>Faizan</span>
+          Hi there, I'm <span className='text-[#915EFF]'>Faizan</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I develop 3D visuals, user <br className='sm:block hidden' />
-            interfaces and web applications
+            Full Stack Developer,<br className='sm:block hidden' />
+            Web Designer 
           </p>
         </div>
       </div>
 
-      <ComputersCanvas />
+      {/* <ComputersCanvas /> */}
+      <SplineScene/>
+      
+          
 
       <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
         <a href='#about'>
