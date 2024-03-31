@@ -1,5 +1,4 @@
 import { motion } from "framer-motion";
-import Spline from "@splinetool/react-spline";
 import { styles } from "../styles";
 import { ComputersCanvas, SplineScene } from "./canvas";
 

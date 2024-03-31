@@ -59,6 +59,7 @@ const services = [
   },
 ];
 
+
 const technologies = [
   {
     name: "HTML 5",
@@ -262,4 +263,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, testimonials, projects};
